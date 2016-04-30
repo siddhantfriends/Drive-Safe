@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DrifeSafe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add_vehicle">Add vehicle</string>
+    <string name="action_show_weather">Show weather</string>
+    <string name="title_activity_add_vehicle">Profile</string>
+
+    <string name="title_plate_number">Plate Number</string>
+    <string name="title_engine_number">Engine Number</string>
+    <string name="save">Save</string>
+
+    <string name="error_missing_fields">Missing fields</string>
+</resources>
