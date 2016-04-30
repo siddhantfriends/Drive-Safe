@@ -2,6 +2,7 @@ package safe.drive.com.drifesafe;
 
 import android.Manifest;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            startActivity(new Intent(this, AddVehicleActivity.class));
             return true;
         }
 
