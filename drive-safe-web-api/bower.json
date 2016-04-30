@@ -23,6 +23,8 @@
   "dependencies": {
     "polymer": "~1.4.0",
     "google-map": "GoogleWebComponents/google-map#^1.1.10",
-    "paper-card": "PolymerElements/paper-card#^1.1.1"
+    "paper-card": "PolymerElements/paper-card#^1.1.1",
+    "jquery": "^2.2.3",
+    "geo-location": "ebidel/geo-location#^1.0.4"
   }
 }
