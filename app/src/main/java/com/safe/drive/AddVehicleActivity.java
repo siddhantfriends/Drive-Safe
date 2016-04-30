@@ -37,6 +37,18 @@ public class AddVehicleActivity extends AppCompatActivity implements View.OnClic
         mPlateNumberEditText = (EditText) findViewById(R.id.plate_number_edit_text);
         mEngineNumberEditText = (EditText) findViewById(R.id.engine_number_edit_text);
 
+        mSharedPreferences = getSharedPreferences(ARG_SHARED_PREFERENCES, MODE_PRIVATE);
+
+        String plateNumber = mSharedPreferences.getString(ARG_PLATE_NUMBER, "");
+        if (!isNullOrEmpty(plateNumber)) {
+            mPlateNumberEditText.setText(plateNumber);
+        }
+
+        String engineNumber = mSharedPreferences.getString(ARG_ENGINE_NUMBER, "");
+        if (!isNullOrEmpty(engineNumber)) {
+            mEngineNumberEditText.setText(engineNumber);
+        }
+
         Button saveButton = (Button) findViewById(R.id.save_button);
         saveButton.setOnClickListener(this);
     }
@@ -49,10 +61,10 @@ public class AddVehicleActivity extends AppCompatActivity implements View.OnClic
 
         Vehicle vehicle = new Vehicle(mPlateNumberEditText.getText().toString(),
                 mEngineNumberEditText.getText().toString());
-
-        mSharedPreferences = getSharedPreferences(ARG_SHARED_PREFERENCES, MODE_PRIVATE);
-        mSharedPreferences.edit().putString(ARG_PLATE_NUMBER, vehicle.getPlateNumber());
+        mSharedPreferences.edit().putString(ARG_PLATE_NUMBER, vehicle.getPlateNumber()).apply();
         mSharedPreferences.edit().putString(ARG_ENGINE_NUMBER, vehicle.getEngineNumber()).apply();
+
+        finish();
     }
 
     private boolean isNullOrEmpty(CharSequence charSequence) {
