@@ -2,9 +2,9 @@
 
 ## Introduction
 
-There is a lot of improvements in technology over the years but the road trafic safety has not improved along with the technology. To improve the user experience of driving we want to create an application. This application will **measure the speed** at which the user is driving and **compare** it with the server in **real time**. If the user is **exceeding the speed limit** the user will be **informed to slow down**.
+Over the years, technology has improved drastically, but we feel that but road traffic safety has not kept up with these technological advancements. To improve the user experience of driving we want to create an application which will **measure the speed** at which the user is driving and **compare** it a server in **real time**. If the user is **exceeding the speed limit** the user will be **informed to slow down**.
 
-This simple idea could open a wide range of possiblities. While driving, your maps and the speed limits of the roads will be cached up to 50 miles around the driver. This will allow the driver to get notifications even when he is offline within the cached area. The traffic speed limits are the maximum limits at which a driver could drive. These cannot be varied when there is a bad weather, maintenance work on roads, traffic jams or snow. This variance in speed limits could be introduced in this application.
+This simple idea could open a wide range of possiblities. Whilst driving, your maps and the speed limits of the roads will be cached up to 50 miles around the driver, which will allow the driver to get notifications even when he is offline. In current navigation systems that compare vehicle speeds with the speed limits on the road, other environmental factors are not taken into account. The speed limits cannot be varied when there is bad weather, maintenance work on roads or traffic jams. Drive Safe however will use these external factors to give varied, updated speed limits, to try and improve safety on the roads.
 
 ## Scope
 
