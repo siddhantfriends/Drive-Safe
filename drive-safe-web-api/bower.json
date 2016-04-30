@@ -1,0 +1,28 @@
+{
+  "name": "Drive Safe",
+  "homepage": "https://github.com/siddhantfriends/Drive-Safe",
+  "authors": [
+    "Siddhant Baviskar <siddhant.baviskar@northumbria.ac.uk>"
+  ],
+  "description": "NUCatsCodeFest",
+  "main": "index.php",
+  "moduleType": [],
+  "keywords": [
+    "Drive",
+    "Safe",
+    "DriveSafe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.4.0",
+    "google-map": "GoogleWebComponents/google-map#^1.1.10",
+    "paper-card": "PolymerElements/paper-card#^1.1.1"
+  }
+}
