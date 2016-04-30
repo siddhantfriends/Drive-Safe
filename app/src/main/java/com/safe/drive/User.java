@@ -1,4 +1,4 @@
-package safe.drive.com.drifesafe;
+package com.safe.drive;
 
 import java.util.List;
 

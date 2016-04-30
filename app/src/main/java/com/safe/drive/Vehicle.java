@@ -1,4 +1,4 @@
-package safe.drive.com.drifesafe;
+package com.safe.drive;
 
 /**
  * Created by Milton on 30/04/2016.
@@ -7,6 +7,10 @@ public class Vehicle {
     private String plateNumber;
     private String engineNumber;
     private boolean isEngineOn;
+
+    public Vehicle(String plateNumber, String engineNumber) {
+        this(plateNumber, engineNumber, false);
+    }
 
     public Vehicle(String plateNumber, String engineNumber, boolean isEngineOn) {
         this.plateNumber = plateNumber;
@@ -24,5 +28,9 @@ public class Vehicle {
 
     public boolean isEngineOn() {
         return isEngineOn;
+    }
+
+    public void setIsEngineOn(boolean isEngineOn) {
+        this.isEngineOn = isEngineOn;
     }
 }

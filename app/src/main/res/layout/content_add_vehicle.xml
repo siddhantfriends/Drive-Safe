@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="safe.drive.com.drifesafe.AddVehicleActivity"
+    tools:context="safe.drive.drive.drifesafe.AddVehicleActivity"
     tools:showIn="@layout/activity_add_vehicle">
 
     <TextView
@@ -52,6 +52,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/save_button"
         android:background="#3F51B5"
         android:textColor="#FFFFFF"
         android:layout_below="@id/engine_number_edit_text"

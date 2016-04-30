@@ -10,4 +10,6 @@
     <string name="title_plate_number">Plate Number</string>
     <string name="title_engine_number">Engine Number</string>
     <string name="save">Save</string>
+
+    <string name="error_missing_fields">Missing fields</string>
 </resources>

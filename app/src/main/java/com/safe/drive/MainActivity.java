@@ -1,7 +1,6 @@
-package safe.drive.com.drifesafe;
+package com.safe.drive;
 
 import android.Manifest;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;

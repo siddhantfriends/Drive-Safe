@@ -1,4 +1,4 @@
-package safe.drive.com.drifesafe;
+package safe.drive.drive.drifesafe;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
