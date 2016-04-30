@@ -13,4 +13,9 @@
         android:checked="false"
         android:orderInCategory="101"
         android:title="@string/action_show_weather" />
+
+    <item
+        android:id="@+id/action_clear_markers"
+        android:orderInCategory="102"
+        android:title="Clear Markers" />
 </menu>

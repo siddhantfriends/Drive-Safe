@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DrifeSafe</string>
+    <string name="app_name">Drive Safe</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,6 +10,8 @@
 
     <string name="title_plate_number">Plate Number</string>
     <string name="title_engine_number">Engine Number</string>
+    <string name="title_current_speed">Current Speed</string>
+    <string name="title_speed_limit">Speed Limit</string>
     <string name="save">Save</string>
 
     <string name="error_missing_fields">Missing fields</string>
