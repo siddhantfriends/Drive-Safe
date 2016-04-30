@@ -8,9 +8,17 @@
     tools:context="safe.drive.drive.drifesafe.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <TextView
+        android:id="@+id/weather_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/map_fragment"
         android:name="com.google.android.gms.maps.MapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/weather_text_view" />
 </RelativeLayout>

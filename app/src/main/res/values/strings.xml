@@ -5,6 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_add_vehicle">Add vehicle</string>
+    <string name="action_show_weather">Show weather</string>
     <string name="title_activity_add_vehicle">Profile</string>
 
     <string name="title_plate_number">Plate Number</string>
